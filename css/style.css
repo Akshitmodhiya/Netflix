@@ -283,6 +283,7 @@ input[type="radio"]{
 
   .header-content h1 {
     font-size: 30px;
+    line-height: 35px;
   }
   .email-signup button {
     font-size: 12px;
@@ -299,10 +300,6 @@ input[type="radio"]{
 
   .features p {
     font-size: 15px;
-  }
-
-  .row:nth-child(2), .row:nth-child(4){
-    flex-direction: column-reverse;
   }
 
   .features .row {
@@ -324,17 +321,5 @@ input[type="radio"]{
 
   label::after{
     font-size: 22px;
-  }
-
-  .footer .col {
-    text-align: center;
-    padding: 0 95px;
-  }
-
-  .footer .lang-btn {
-   margin-left: 95px;
-  }
-  .footer .copyright{
-    text-align: center;
   }
 }
